@@ -45,6 +45,7 @@ require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.10.0
+	github.com/superfly/tokenizer v0.0.2
 	github.com/zalando/go-keyring v0.2.5
 	golang.org/x/crypto v0.32.0
 	golang.org/x/sync v0.10.0
@@ -75,6 +76,7 @@ require (
 	github.com/docker/cli v27.5.0+incompatible // indirect
 	github.com/docker/distribution v2.8.3+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.8.2 // indirect
+	github.com/elazarl/goproxy v0.0.0-20230731152917-f99041a5c027 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/gdamore/encoding v1.0.0 // indirect
@@ -166,3 +168,6 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 )
+
+// replace github.com/cli/go-gh/v2 v2.11.2 => github.com/btoews/go-gh/v2 v2.0.0-20250204204508-632e29ea8a8e
+replace github.com/cli/go-gh/v2 v2.11.2 => ../go-gh
