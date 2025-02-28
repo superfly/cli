@@ -168,6 +168,3 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 )
-
-// replace github.com/cli/go-gh/v2 v2.11.2 => github.com/btoews/go-gh/v2 v2.0.0-20250204204508-632e29ea8a8e
-replace github.com/cli/go-gh/v2 v2.11.2 => ../go-gh
