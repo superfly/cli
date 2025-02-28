@@ -14,12 +14,17 @@ func main() {
 	sealed := os.Getenv("GH_TOKENIZER_SEALED_TOKEN")
 	auth := os.Getenv("GH_TOKENIZER_AUTH")
 
-	if sealed != "" && auth != "" {
+	if sealed != "" {
 		if url == "" {
 			url = "https://tokenizer.fly.io"
 		}
 
-		t, err := tokenizer.Transport(url, tokenizer.WithSecret(sealed, nil), tokenizer.WithAuth(auth))
+		opts := []tokenizer.ClientOption{tokenizer.WithSecret(sealed, nil)}
+		if auth != "" {
+			opts = append(opts, tokenizer.WithAuth(auth))
+		}
+
+		t, err := tokenizer.Transport(url, opts...)
 		if err != nil {
 			fmt.Println("Failed to inject tokenizer transport")
 			fmt.Println(err)
