@@ -1,8 +1,6 @@
 module github.com/cli/cli/v2
 
-go 1.23.0
-
-toolchain go1.23.5
+go 1.24
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
@@ -105,7 +103,7 @@ require (
 	github.com/itchyny/timefmt-go v0.1.5 // indirect
 	github.com/jedisct1/go-minisign v0.0.0-20211028175153-1c139d1cc84b // indirect
 	github.com/josharian/intern v1.0.0 // indirect
-	github.com/klauspost/compress v1.17.11 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/letsencrypt/boulder v0.0.0-20240620165639-de9c06129bec // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
