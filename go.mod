@@ -1,8 +1,6 @@
 module github.com/cli/cli/v2
 
-go 1.23.0
-
-toolchain go1.23.5
+go 1.25.0
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
@@ -22,7 +20,7 @@ require (
 	github.com/gabriel-vasile/mimetype v1.4.8
 	github.com/gdamore/tcell/v2 v2.5.4
 	github.com/golang/snappy v0.0.4
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/google/go-containerregistry v0.20.3
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/gorilla/websocket v1.5.3
@@ -44,14 +42,14 @@ require (
 	github.com/sigstore/sigstore-go v0.7.0
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.6
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	github.com/zalando/go-keyring v0.2.5
-	golang.org/x/crypto v0.32.0
-	golang.org/x/sync v0.10.0
-	golang.org/x/term v0.28.0
-	golang.org/x/text v0.21.0
-	google.golang.org/grpc v1.69.4
-	google.golang.org/protobuf v1.36.5
+	golang.org/x/crypto v0.55.0
+	golang.org/x/sync v0.22.0
+	golang.org/x/term v0.45.0
+	golang.org/x/text v0.41.0
+	google.golang.org/grpc v1.83.2
+	google.golang.org/protobuf v1.36.11
 	gopkg.in/h2non/gock.v1 v1.1.2
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -63,6 +61,7 @@ require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/blang/semver v3.5.1+incompatible // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/charmbracelet/x/ansi v0.1.4 // indirect
 	github.com/cli/browser v1.3.0 // indirect
 	github.com/cli/shurcooL-graphql v0.0.4 // indirect
@@ -79,8 +78,8 @@ require (
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/gdamore/encoding v1.0.0 // indirect
 	github.com/go-chi/chi v4.1.2+incompatible // indirect
-	github.com/go-jose/go-jose/v4 v4.0.5 // indirect
-	github.com/go-logr/logr v1.4.2 // indirect
+	github.com/go-jose/go-jose/v4 v4.1.4 // indirect
+	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/analysis v0.23.0 // indirect
 	github.com/go-openapi/errors v0.22.0 // indirect
@@ -150,19 +149,19 @@ require (
 	github.com/yuin/goldmark v1.7.4 // indirect
 	github.com/yuin/goldmark-emoji v1.0.3 // indirect
 	go.mongodb.org/mongo-driver v1.14.0 // indirect
-	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
-	go.opentelemetry.io/otel v1.33.0 // indirect
-	go.opentelemetry.io/otel/metric v1.33.0 // indirect
-	go.opentelemetry.io/otel/trace v1.33.0 // indirect
+	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
+	go.opentelemetry.io/otel v1.44.0 // indirect
+	go.opentelemetry.io/otel/metric v1.44.0 // indirect
+	go.opentelemetry.io/otel/trace v1.44.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/exp v0.0.0-20240325151524-a685a6edb6d8 // indirect
-	golang.org/x/mod v0.22.0 // indirect
-	golang.org/x/net v0.34.0 // indirect
-	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/tools v0.29.0 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20241209162323-e6fa225c2576 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250102185135-69823020774d // indirect
+	golang.org/x/mod v0.38.0 // indirect
+	golang.org/x/net v0.58.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/tools v0.48.0 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20260526163538-3dc84a4a5aaa // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 )
